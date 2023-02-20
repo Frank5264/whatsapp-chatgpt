@@ -30,7 +30,7 @@ async function handleIncomingMessage(message: Message) {
 		return;
 	}
 
-	// GPT (!gpt <prompt>)
+	// GPT (الترا <prompt>)
 	if (startsWithIgnoreCase(messageString, config.gptPrefix)) {
 		const prompt = messageString.substring(config.gptPrefix.length + 1);
 		await handleMessageGPT(message, prompt);
