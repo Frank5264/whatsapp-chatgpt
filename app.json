@@ -1,0 +1,17 @@
+{
+
+ 
+
+  "stack": "heroku-22",
+
+  "buildpacks": [
+
+    {
+
+      "url": "heroku/python"
+
+    }
+
+  ]
+
+}
